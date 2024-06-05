@@ -7,7 +7,8 @@
 1. Cài ứng dụng Python cho máy tính
 2. Cài ứng dụng Visual Studio Code sử dụng làm IDE để lập trình Python
 3. Cài đặt các tiện ích mở rộng (extension) cho  VS Code để kết nối với Python gồm: `python`, `jupyter`
-4. Cài đặt các thư viện Python: `vnstock3`, `pandas`, `requests`, `beautifulsoup4`, `selenium`, `PyYAML`, `openpyxl`
+4. Cài đặt `jupyterlab` (tương tự như Jupyter trong VSCode hay Google Colab) sử dụng như ứng dụng soạn thảo lệnh có khả năng tương thích tốt nhất với hầu hết các thư viện Python.
+5. Cài đặt các thư viện Python: `vnstock3`, `pandas`, `requests`, `beautifulsoup4`, `selenium`, `PyYAML`, `openpyxl`
 
 # II. Hướng dẫn cài đặt
 

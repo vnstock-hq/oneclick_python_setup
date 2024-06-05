@@ -125,7 +125,7 @@ check_python_package() {
 
 # Function to install Python packages
 install_python_packages() {
-    packages=("vnstock3" "pandas" "requests" "beautifulsoup4" "selenium" "openpyxl" "PyYAML")
+    packages=("vnstock3" "pandas" "requests" "beautifulsoup4" "selenium" "openpyxl" "PyYAML" "jupyterlab")
     for package in "${packages[@]}"; do
         if ! check_python_package $package; then
             echo "Installing Python package $package..."

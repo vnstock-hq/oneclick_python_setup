@@ -125,7 +125,7 @@ function Check-PythonPackage {
 
 # Function to install Python packages
 function Install-PythonPackages {
-    $packages = @("vnstock3", "pandas", "requests", "beautifulsoup4", "selenium", "PyYAML", "openpyxl")
+    $packages = @("vnstock3", "pandas", "requests", "beautifulsoup4", "selenium", "PyYAML", "openpyxl", "jupyterlab")
     foreach ($package in $packages) {
         if (-not (Check-PythonPackage -package $package)) {
             Write-Output "Installing Python package $package..."
