@@ -16,17 +16,15 @@ Xem video hướng dẫn: https://www.youtube.com/watch?v=uqxHCHDLqRE
 
 ## Cài đặt cho máy tính Windows
 
-Để thực hiện cài đặt chương trình với PowerShell, bạn có thể mở Powershell bằng cách nhấp chuột phải vào biểu tượng Windows trên thanh Taskbar của máy tính sau đó thực hiện tiếp các lệnh sau. Nếu chế độ thông thường, bạn có thể sẽ phải mở Powershell dưới chế độ Admin.
+Để thực hiện cài đặt chương trình với PowerShell, bạn có thể mở Powershell bằng cách nhấp chuột phải vào biểu tượng Windows trên thanh Taskbar của máy tính sau đó chọn Windows PowerShell (Admin) và thực hiện tiếp các lệnh sau. 
 
-1. Mở PowerShell từ thư mục chứa file cài đặt. 
+1. Mở PowerShell từ thư mục chứa file cài đặt, giả sử địa chỉ lưu file mặc định là thư mục Downloads. 
 
 ```shell
 cd Downloads
-```
+```	
 
-Câu lệnh trên cho phép chuyển đến thư mục Download để tiếp tục sử dụng chương trình Powershell.
-
-2. Chạy lệnh cài đặt từ file script. 
+1. Chạy lệnh cài đặt từ file script. 
 
 ```
 powershell -ExecutionPolicy Bypass -File .\oneclick_python_vnstock3_windows.ps1
@@ -34,8 +32,8 @@ powershell -ExecutionPolicy Bypass -File .\oneclick_python_vnstock3_windows.ps1
 
 ## Cài đặt cho máy tính macOS
 
-> Để cài đặt bộ môi trường Python thông qua file cài đặt tất cả trong một, bạn cần sử dụng ứng dụng Terminal trên máy để thực hiện các thao tác.
-
+Bạn cần mở ứng dụng Terminal trên máy tính Mac thông qua Launcher hoặc sử dụng tổ hợp phím tắt `Cmd` + `Space` sau đó nhập `Terminal` để tìm kiếm, chọn và `Enter`. Tiếp tục quá trình cài đặt với các bước dưới đây.
+	
 1. Mở thư mục `Downloads` là thư mục lưu file cài đặt mà bạn tải về từ trình duyệt web bằng câu lệnh:
 
 ```shell
