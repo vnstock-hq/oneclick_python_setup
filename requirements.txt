@@ -1,0 +1,17 @@
+# Danh sách các gói cài đặt khuyên dùng, tham khảo từ Google Colab để đảm bảo tính tương thích tốt nhất
+
+numpy==1.25.2
+pandas==2.0.3
+pydantic==2.7.4
+pydantic-core==2.18.4
+psutil==5.9.5
+pytest==7.4.4
+Markdown==3.6
+Flask==2.2.5
+aiohttp==3.9.5
+beautifulsoup4==4.12.3
+# Data visualization
+matplotlib==3.7.1
+seaborn==0.13.1
+panel==1.3.8
+bokeh==3.3.4

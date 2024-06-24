@@ -71,3 +71,9 @@ chmod +x oneclick_python_vnstock3_linux.sh
 ```shell
 bash ./oneclick_python_vnstock3_linux.sh
 ```
+
+# Tham khảo
+
+Nếu bạn cài đặt Python lần đầu, có thể tham khảo thêm file `requirements.txt` cung cấp danh sách các gói cài đặt và phiên bản đang được sử dụng cho môi trường Google Colab đảm bảo khả năng tương thích tốt với nhiều gói cài đặt phần mềm khác nhau.
+
+Để sử dụng, chạy câu lệnh `python3 -m pip install -r requirements.txt` khi đã cài đặt xong Python. 
